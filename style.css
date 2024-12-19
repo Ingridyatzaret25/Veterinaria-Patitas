@@ -1,0 +1,56 @@
+body {
+    background-image: url(veterinaria.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #020302; /* Color verde para los encabezados */
+}
+
+.form-control {
+    border: 1px solid #ab0707; /* Borde gris claro */
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #b06e99; /* Borde verde al enfocar los campos */
+    box-shadow: 0 0 5px rgba(47, 130, 162, 0.5); /* Sombra verde */
+}
+
+.btn-info {
+    background-color: #b06e99; /* Botón verde */
+    border-color: #b06e99; /* Borde verde */
+}
+
+.btn-info:hover {
+    background-color: #b06e99; /* Color de fondo más oscuro cuando pasa el mouse */
+    border-color: #b06e99; /* Borde más oscuro */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Fondo alternado gris para las filas de la tabla */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Centrar texto en las celdas */
+}
+
+.eliminar-btn {
+    background-color: #f44336; /* Botón rojo para eliminar */
+    border-color: #f44336; /* Borde rojo */
+}
+
+.eliminar-btn:hover {
+    background-color: #e53935; /* Color más oscuro cuando pasa el mouse */
+    border-color: #e53935; /* Borde más oscuro */
+}
